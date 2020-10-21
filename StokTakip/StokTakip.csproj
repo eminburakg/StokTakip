@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B922F43-9872-44E0-AF05-E248F0FA3F34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StokTakip</RootNamespace>
+    <AssemblyName>StokTakip</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormKategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKategori.Designer.cs">
+      <DependentUpon>FormKategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMarka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMarka.Designer.cs">
+      <DependentUpon>FormMarka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMusteriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMusteriEkle.Designer.cs">
+      <DependentUpon>FormMusteriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMusteriListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMusteriListele.Designer.cs">
+      <DependentUpon>FormMusteriListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSatis.Designer.cs">
+      <DependentUpon>FormSatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSatisListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSatisListele.Designer.cs">
+      <DependentUpon>FormSatisListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUrunEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUrunEkleme.Designer.cs">
+      <DependentUpon>FormUrunEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUrunListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUrunListele.Designer.cs">
+      <DependentUpon>FormUrunListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormKategori.resx">
+      <DependentUpon>FormKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMarka.resx">
+      <DependentUpon>FormMarka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMusteriEkle.resx">
+      <DependentUpon>FormMusteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMusteriListele.resx">
+      <DependentUpon>FormMusteriListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSatis.resx">
+      <DependentUpon>FormSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSatisListele.resx">
+      <DependentUpon>FormSatisListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUrunEkleme.resx">
+      <DependentUpon>FormUrunEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUrunListele.resx">
+      <DependentUpon>FormUrunListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

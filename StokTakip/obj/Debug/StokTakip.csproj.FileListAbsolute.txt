@@ -1,0 +1,17 @@
+C:\Users\numan\Desktop\StokTakip\StokTakip\bin\Debug\StokTakip.exe.config
+C:\Users\numan\Desktop\StokTakip\StokTakip\bin\Debug\StokTakip.exe
+C:\Users\numan\Desktop\StokTakip\StokTakip\bin\Debug\StokTakip.pdb
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.csprojAssemblyReference.cache
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.FormSatis.resources
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.Properties.Resources.resources
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.csproj.GenerateResource.cache
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.csproj.CoreCompileInputs.cache
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.exe
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.pdb
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.FormMusteriEkle.resources
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.FormMusteriListele.resources
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.FormKategori.resources
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.FormMarka.resources
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.FormUrunEkleme.resources
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.FormUrunListele.resources
+C:\Users\numan\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.FormSatisListele.resources
